@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.what_to_do.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:id = "@+id/Value_Of_Throw"
+        android:text = "0"
+        android:gravity = "center_horizontal|center_vertical"
+        android:textSize="64dp"
+        android:padding = "20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight = "1"
+        android:text = "Flip a coin"
+        android:onClick = "FlipACoin"
+        android:textSize= "24dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight = "1"
+        android:textSize= "24dp"
+        android:text = "Throw A Die"
+        android:onClick = "ThrowADie"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize= "24dp"
+        android:layout_weight = "1"
+        android:text = "SpinWheel"
+        android:onClick = "SpinWheel"/>
+
+
+</LinearLayout>
